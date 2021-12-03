@@ -1,0 +1,15 @@
+def add(a,b):
+   print("addition of {},{}={}".format(a,b,a+b))
+def sub(a,b):
+   print("subtraction of {},{}={}".format(a,b,a-b))
+def multi(a,b):
+   print("multiplication of {},{}={}".format(a,b,a*b))
+def div(a,b):
+   print("division of {},{}={}".format(a,b,a/b))
+a=int(input("enter number"))
+b=int(input("enter number"))
+add(a,b)
+sub(a,b)
+multi(a,b)
+div(a,b)
+
